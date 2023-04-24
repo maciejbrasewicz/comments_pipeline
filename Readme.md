@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project is a data pipeline that fetches comments from the JSONPlaceholder API, stores the JSON data as newline-delimited JSON in Google Cloud Storage (GCS), and writes the data to a BigQuery table. The pipeline is built using Apache Beam and is designed to be run on Google Cloud Dataflow.
+This project is a data pipeline that fetches comments from the JSONPlaceholder API (https://jsonplaceholder.typicode.com/), stores the JSON data as newline-delimited JSON in Google Cloud Storage (GCS), and writes the data to a BigQuery table. The pipeline is built using Apache Beam and is designed to be run on Google Cloud Dataflow.
+
+![Screenshot from 2023-04-24 15-53-27](https://user-images.githubusercontent.com/49028274/234024879-b23ce6f6-91c2-4b5c-a935-79cf8bfaf165.png)
+
 
 ## Prerequisites
 
@@ -14,9 +17,9 @@ This project is a data pipeline that fetches comments from the JSONPlaceholder A
 
 1. Clone the repository and navigate to the project directory:
 
-`git clone https://github.com/your_username/comments-data-pipeline.git`
+`git clone https://github.com/your_username/comments_pipeline.git`
 
-`cd comments-data-pipeline`
+`cd comments_pipeline`
 
 
 2. Create and activate a virtual environment:
